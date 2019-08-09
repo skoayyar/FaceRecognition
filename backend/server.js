@@ -82,10 +82,3 @@ app.put('/image', (req,res) => {
 app.listen(3001, () => {
 	console.log('app is running on port 3001');
 })
-/*
-/--> res = this is working
-/1.signin --> POST = success/fail
-/2.register ---> POST = user 
-/3.profile/:userId --> GET = user
-/4.image --> PUT --> user 
-*/
